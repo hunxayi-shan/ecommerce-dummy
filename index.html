@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/styles.css">
+        <link rel="icon"
+            href="https://static.vecteezy.com/system/resources/previews/001/504/962/non_2x/shopping-cart-icon-free-vector.jpg">
+        <script src="/js/bootstrap.min.js"></script>
+        <script src="/js/jquery-3.6.0.min.js/jquery-3.6.0.min.js"></script>
+        <script src="/js/jquery-3.6.0.min.js/filter-gallery.js"></script>
+        <script src="/js/bootstrap.bundle.min.js"></script>
+        <title>Filter Gallery</title>
+    </head>
+
+    <body class="bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+            <div class="container-fluid">
+                <img id="header-logo" src="/images/discord_logo.png" alt="background-picture"
+                    style="width: 25px; margin-right: 10px;">
+                <a class="navbar-brand display-5" href="#">FilterGallery</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <div class="container-fluid">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://cdn.homeshopping.pk/templates/ResGarden/images/HomeSlider2018/samsung-galaxy-s21fe-1440x330.jpg"
+                            class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5></h5>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://cdn.homeshopping.pk/templates/ResGarden/images/HomeSlider2018/chanhongruba-digital-1440-330.jpg"
+                            class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5></h5>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://cdn.homeshopping.pk/templates/ResGarden/images/HomeSlider2018/Gaming-Web1min.png"
+                            class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5></h5>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div id="items" class="container-fluid bg-light text-dark main">
+            <div class="btn-group text-center" id="sec-main">
+                <button type="button" class="btn btn-primary category-button bg-primary" data-filter="all">All</button>
+                <button type="button" class="btn btn-primary category-button bg-primary" data-filter="category1">Mobile
+                    Phones
+                </button>
+                <button type="button" class="btn btn-primary category-button bg-primary" data-filter="category2">Laptops
+                </button>
+                <button type="button" class="btn btn-primary category-button bg-primary"
+                    data-filter="category3">Accessories
+                </button>
+                <button type="button" class="btn btn-primary category-button bg-primary" data-filter="category4">Other
+                    Electronics
+                </button>
+            </div>
+            <hr id="line"><br>
+            <div class="row all category1">
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top img-handle"
+                            src="https://cdn.homeshopping.pk/product_images/n/786/1__59843_zoom.png"
+                            alt="Card image cap" id="image-handle">
+                        <div class="card-body">
+                            <p class="card-text">Samsung Galaxy Note 20 Ultra (5G 12GB 256GB)</p>
+                            <a href="#" class="btn btn-primary">Rs 171,999</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top img-handle"
+                            src="https://cdn.homeshopping.pk/product_images/k/236/pk-galaxy-a52s-5g-a528-sm-a528bzkgmeb-500823193__64624_zoom.png"
+                            alt="Card image cap" id="image-handle">
+                        <div class="card-body">
+                            <p class="card-text">Samsung Galaxy A52s (5G 8GB 128GB Awesome Black)</p>
+                            <a href="#" class="btn btn-primary">Rs 69,999</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top img-handle"
+                            src="https://cdn.homeshopping.pk/product_images/h/324/Apple_iPhone_7_Plus_%2832GB__Rose_Gold%29__69580_zoom.jpg"
+                            alt="Card image cap" id="image-handle">
+                        <div class="card-body">
+                            <p class="card-text">Apple iPhone 7 Plus (128GB, Rose Gold) Hong Kong</p>
+                            <a href="#" class="btn btn-primary">Rs 49,999</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top img-handle"
+                            src="https://cdn.homeshopping.pk/product_images/w/174/61IJBsHm97L._FM__59558_zoom.jpg"
+                            alt="Card image cap" id="image-handle">
+                        <div class="card-body">
+                            <p class="card-text">Apple iPhone 13 Pro Max (5G 128GB Graphite) US - Non PTA</p>
+                            <a href="#" class="btn btn-primary">Rs 209,999</a>
+                        </div>
+                    </div>
+                </div>
+            </div><br>
+
+            <div class="row all category2">
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top img-handle"
+                            src="https://cdn.homeshopping.pk/product_images/p/115/dell-precision-5550-core-i9-64gb-ram-512gb__96527_zoom.jpg"
+                            alt="Card image cap" id="image-handle">
+                        <div class="card-body">
+                            <p class="card-text">Dell Precision 5550 15.6″ Inches Laptop (Core i9, 64GB RAM) 512GB (No
+                                Box)</p>
+                            <a href="#" class="btn btn-primary">Rs 319,999</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top img-handle"
+                            src="https://cdn.homeshopping.pk/product_images/p/358/Dell-Precision-5540-Core-I9-32gb-512gb-Gray__71692_zoom.jpg"
+                            alt="Card image cap" id="image-handle">
+                        <div class="card-body">
+                            <p class="card-text">Dell Precision 5540 15.6″ Intel Core i9 (2.3GHz, 32GB) 512GB SSD Gray
+                                (No Box)</p>
+                            <a href="#" class="btn btn-primary">Rs 298,999</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem;">
+                        <img style="margin-top: 23px" class="card-img-top img-handle"
+                            src="https://cdn.homeshopping.pk/product_images/k/202/81781LynWnL._SL1500___27540_zoom.jpg"
+                            alt="Card image cap" id="image-handle">
+                        <div class="card-body">
+                            <p class="card-text">HP 348 G3 Core i7 4GB RAM 500GB HDD 14" HD DOS Laptop</p>
+                            <a href="#" class="btn btn-primary">Rs 64,399</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top img-handle"
+                            src="https://cdn.homeshopping.pk/product_images/f/488/Dell-Inspiron-3501-Mint-__99100_zoom.jpg"
+                            alt="Card image cap" id="image-handle">
+                        <div class="card-body">
+                            <p class="card-text">DELL N3501 Ci7 1165G7 8GB 512GB SSD Ubuntu 2GB MX330 GPU Soft Mint</p>
+                            <a href="#" class="btn btn-primary">Rs 159,499</a>
+                        </div>
+                    </div>
+                </div>
+            </div><br>
+
+            <div class="row all category3">
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top img-handle"
+                            src="https://cdn.homeshopping.pk/product_images/f/463/airpods_in_low_price__36527_zoom.png"
+                            alt="Card image cap" id="image-handle">
+                        <div class="card-body">
+                            <p class="card-text">Black APPLE AIRPODS GENERATION 2 (Master Copy)</p>
+                            <a href="#" class="btn btn-primary">Rs 2,850</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top img-handle"
+                            src="https://cdn.homeshopping.pk/product_images/o/066/Galaxy_Buds_Live_product_image_%285%29__70011_zoom.jpg"
+                            alt="Card image cap" id="image-handle">
+                        <div class="card-body">
+                            <p class="card-text">Samsung Galaxy Buds Live Mystic Bronze (Master Copy)</p>
+                            <a href="#" class="btn btn-primary">Rs 3,899</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top img-handle"
+                            src="https://cdn.homeshopping.pk/product_images/o/374/R-9_02__41937_zoom.png"
+                            alt="Card image cap" id="image-handle">
+                        <div class="card-body">
+                            <p class="card-text">Ronin R-9 Crystal clear sound Earphone</p>
+                            <a href="#" class="btn btn-primary">Rs 999</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top img-handle"
+                            src="https://cdn.homeshopping.pk/product_images/x/654/Apple-Airtag-Loop-Sunflower__15025_zoom.jpg"
+                            alt="Card image cap" id="image-handle">
+                        <div class="card-body">
+                            <p class="card-text">Apple Airtag Loop (MK0W3ZM/A) Sunflower</p>
+                            <a href="#" class="btn btn-primary">Rs 3,629</a>
+                        </div>
+                    </div>
+                </div>
+            </div><br>
+
+            <div class="row all category4">
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top img-handle"
+                            src="https://cdn.homeshopping.pk/product_images/j/094/Untitled722__03367_zoom.jpg"
+                            alt="Card image cap" id="image-handle">
+                        <div class="card-body">
+                            <p class="card-text">Sony G 40 Inch Smart Android WiFi 4K Led Tv</p>
+                            <a href="#" class="btn btn-primary">Rs 66,999</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top img-handle"
+                            src="https://cdn.homeshopping.pk/product_images/a/996/5564645-3__90963_zoom.jpg"
+                            alt="Card image cap" id="image-handle">
+                        <div class="card-body">
+                            <p class="card-text">Nikon Coolpix W100 Camera – White</p>
+                            <a href="#" class="btn btn-primary">Rs 15,800</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top img-handle"
+                            src="https://cdn.homeshopping.pk/product_images/b/468/1200Wx1200H__95031_zoom.jpg"
+                            alt="Card image cap" id="image-handle">
+                        <div class="card-body">
+                            <p class="card-text">ViewSonic LS700HD 1080p Laser Home Projector</p>
+                            <a href="#" class="btn btn-primary">Rs 264,999</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top img-handle"
+                            src="https://cdn.homeshopping.pk/product_images/g/526/Dawlance-9178WB-Chrome-FH-Refrigerator-470x470__69179_zoom.jpg"
+                            alt="Card image cap" id="image-handle">
+                        <div class="card-body">
+                            <p class="card-text">Dawlance 9178 WB Chrome FH Refrigerator</p>
+                            <a href="#" class="btn btn-primary">Rs 59,799</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><br>
+
+        <div class="b-example-divider"></div>
+        <div class="container-fluid bg-light">
+            <footer class="row row-cols-5 py-5 my-5">
+                <div class="col">
+                    <a href="#" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+                        <img align="right" src="/images/discord_logo.png" style="width: 100px; margin: 0 0 0 50px;"
+                            alt="">
+                    </a>
+                </div>
+                <div class="col">
+
+                </div>
+                <div class="col">
+                    <h5>Section</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h5>Section</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h5>Section</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                    </ul>
+                </div>
+        </div>
+        <div class="d-flex justify-content-between py-4 my-4 border-top">
+            <p class="p-end h6">© 2021 Company, Inc. All rights reserved.</p>
+        </div>
+        </footer>
+    </body>
+
+</html>

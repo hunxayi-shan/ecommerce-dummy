@@ -1,0 +1,46 @@
+#sec-main {
+    width: 50%;
+    height: auto;
+    margin: 10px
+}
+
+#line {
+    padding-top: 1px;
+    color: black;
+    background-color: black;
+    margin: 5px 0px 5px 0px;
+}
+
+.img-handle {
+    width: 200px;
+    height: 200px;
+    margin-left: 35px;
+}
+
+.price {
+    position: absolute;
+    display: block;
+    top: 20px;
+}
+
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.p-end {
+    margin-bottom: -15px;
+    padding: 0 0 0 20px;
+}
+
+.hore {
+    border-bottom: 1px;
+    border-bottom-color: black;
+    border-right-color: white;
+    border-left-color: white;
+    border-top-color: white;
+    border-style: solid;
+}
